@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header">
-        <div class="wrapper">
+        <div class="wrapper header-flex-container">
             <div class="header-logo-menu">
-                <div class="burger-logo-menu"></div>
-                <div class="burger-logo-menu"></div>
-                <div class="burger-logo-menu"></div>
+                <div class="burger">
+                    <div class="burger-logo-menu"></div>
+                    <div class="burger-logo-menu"></div>
+                    <div class="burger-logo-menu"></div>
+                </div>
                 <a class="header-menu" href="#">Menu</a>
             </div>
             <a class="text-logo">
@@ -30,58 +34,60 @@
         <div class="wrapper">
             <div class="home-container">
                 <p class="subtitle">home</p>
-                <a class="home-title">Buster<br>
-                Bulb</a>
+                <h1 class="home-title">Buster<br>
+                Bulb</h1>
                 <p class="home-container-text">
                     The first designer<br>
                     LED bulb, finished<br>
                     in gold glass.   
                 </p>
                 <a class="read-more-button" href="#">
-                    Read-more
+                    Read more
                 </a>
             </div>
         </div>
     </section>
     <section class="accessories-signup">
-        <div class="wrapper">
+        <div class="wrapper accessories-flex-container">
             <div class="peak-container">
                 <p class="subtitle">accessories</p>
-                <a class="Peak-title">Peak</a>
+                <h2 class="peak-title">Peak</h2>
                 <p class="peak-container-text">A playful pouch<br>
                     with a trick up its<br>
                     sleeve
                 </p>
                 <a class="read-more-button" href="#">
-                        Read-more
+                        Read more
                 </a>
             </div>
             <div class="good-things-container">
-                <a>Good Things</a>
+                <p class="good-things-title">Good Things<br>
+
+                </p>
                 <p class="good-things-text">
                         ...<br>
                         come to those who sign up<br>
                         for our newsletter.
                 </p>
-                <input name="email" type="email" placeholder="Your email">
-                <input type="button" value="Subscribe">
+                <input name="email" type="email" placeholder="Your email" class="your-email-input" size="10">
+                <button class="subscribe-button">Subscribe</button>
                 <p class="good-things-under-button">We respect your privacy and we won’t<br>
                     share your information.</p>
             </div>
         </div>
     </section>
-    <section class="cameras-sound">
-        <div class="wrapper">
+    <section class="cameras-sound-flex">
+        <div class="wrapper cameras-sound-flex-container">
             <div class="cameras-leica-m">
-                <p class="subtitle">cameras</p>
-                <a class="leica-m-title">Leica M</a>
+                <p class="subtitle title-cameras">cameras</p>
+                <a class="product-title">Leica M</a>
                 <a class="review-button" href="#">
                     Review
                 </a>
             </div>
-            <div class="sound">
-                    <p class="subtitle">sound</p>
-                <a class="trobla-amplifilter-title">
+            <div class="sound-container">
+                    <p class="subtitle title-sound">sound</p>
+                <a class="product-title">
                         Trobla<br>
                         Amplifier
                 </a>
@@ -91,23 +97,23 @@
             </div>
             <div class="cameras-leica-dlux">
                 <p class="subtitle">cameras</p>
-                <a class="leica-dlux-title">Leica D-Lux</a>
+                <a class="product-title">Leica D-Lux</a>
                 <p class="leica-dlux-text">
                         Limited-edition DIesel<br>
                         collaboration
                 </p>
                 <a class="read-more-button" href="#">
-                    Read-more
+                    Read more
                 </a>
             </div>
         </div>
     </section>
     <footer id="footer">
-        <div class=wrapper>
+        <div class="wrapper footer-container">
             <section class="corpyright">
                 <p>Copyright DMT</p>
             </section>
-            <section class="social-media">
+            <section class="social-media-container">
                 <div class="social-media-facebook-i"></div>
                 <div class="social-media-twitter-i"></div>
             </section>

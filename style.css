@@ -1,0 +1,312 @@
+/* header */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3e3b4a;
+}
+.header-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1020px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #header{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+.burger-logo-menu{
+    height: 3px;
+    width: 23px;
+    background-color: #898691;
+    margin-right: 10px;
+}
+.burger-logo-menu:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.header-logo-menu{
+    display: flex;
+    align-items: center;
+}
+.header-menu{
+    color: #898691;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.main-part-logo{
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.under-part-logo{
+    color: #898691;
+    text-align: center;
+}
+
+.search-logo{
+    display: flex;
+    align-items: center;
+}
+.search-logo input{
+    color: #898691;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #00000000;
+    letter-spacing: 3px;
+    border: 0;
+    text-align: right;
+    font-size: 16px;
+    padding: 0;
+    /* box-sizing: content-box; */
+    /* display: block; */
+}
+.search-logo input::placeholder,
+.search-logo input::-ms-input-placeholder,
+.search-logo input::-webkit-input-placeholder{
+    color: #898691;
+}
+
+.search-logo button{
+    background-color: #00000000;
+    border: 0;
+    padding: 0;
+}
+/* section */
+
+/* .home-section{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+.subtitle{
+    color: #ffc7b0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+.home-title{
+    font-size: 68pt;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 80px;
+    padding-bottom: 25px;
+}
+.home-container{
+    background: url('img/home-bg.jpg') no-repeat 50% 50% /cover;
+    padding: 0 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.home-container-text{
+    font-size: 47px;
+    color: #ffffff;
+    padding-bottom: 155px;
+}
+.read-more-button{
+    font-size: 20pt;
+    color: #ffffff;
+    border: 3px solid #ffe18f;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+    /* line-height: 1; */
+    /* margin-bottom: 35px; */
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+}
+
+.review-button{
+    font-size: 26px;
+    color: #3d3c4a;
+    border: 3px solid #ffe18f;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffe18f;
+    font-weight: bold;
+    position: absolute;
+    left: 75px;
+    bottom: 40px;
+}
+
+.peak-container{
+    background: url('img/peak-bg.jpg') no-repeat 0 center /cover;
+    position: relative;
+    padding-left: 40px;
+    margin-right: 20px;
+    width: 620px;
+}
+.peak-title{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.peak-container-text{
+    font-size: 32px;
+    color: #ffffff;
+    padding-bottom: 275px;
+}
+
+.good-things-container{
+    background-color: #eb7b61;
+    text-align: center;
+    font-family: 'Times New Roman';
+    width: 380px;
+}
+
+.good-things-title{
+    font-size: 64px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 75px;
+}
+
+.good-things-text{
+    font-size: 32px;
+    color: #ffffff;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+.your-email-input{
+    background-color: #00000000;
+    color: #ffd9d1;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    width: 75%;
+    border: 3px solid #ffd9d1;
+    margin-bottom: 20px;
+}
+
+.your-email-input::placeholder
+/* .your-email-input::-ms-input-placeholder,
+.your-email-input::-webkit-input-placeholder */{
+    color: #ffd9d1;
+}
+
+.subscribe-button{
+    background-color: #66689c;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid #66689c;
+    font-size: 26px;
+    padding: 10px 0;
+    width: 75%;
+    margin-bottom: 30px;
+}
+.good-things-under-button{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-bottom: 75px;
+}
+
+.home-section, .accessories-flex-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cameras-sound-flex-container{
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.product-title{
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.title-cameras{
+    padding-bottom: 140px;
+    padding-top: 35px;
+}
+.cameras-leica-m{
+    background: url('img/cameras-bg.jpg') no-repeat 0 center;
+    position: relative;
+    padding-bottom: 200px;
+    text-align: center;
+    width: 260px;
+    margin-right: 20px;
+}
+.sound-container{
+    background: url('img/sound-bg.jpg') no-repeat 0 center;
+    position: relative;
+    padding-bottom: 170px;
+    text-align: center;
+    width: 260px;
+    margin-right: 20px;
+}
+.title-sound{
+    padding-bottom: 130px;
+    padding-top: 35px;
+}
+
+.cameras-leica-dlux{
+    background: url('img/cameras-2bg.jpg') no-repeat 0 center;
+    width: 460px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.leica-dlux-text{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 200;
+    padding-bottom: 260px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 74px;
+    align-items: center;
+}
+.corpyright{
+    color: #898691;
+    font-size: 18px;
+}
+.social-media-container{
+    display: flex;
+    align-items: center;
+
+}
+.social-media-facebook-i{
+    background: url('img/facebook-i.png') no-repeat center center;
+    width: 13px;
+    height: 24px;
+    margin-right: 20px;
+}
+.social-media-twitter-i{
+    background: url('img/twitter-i.png') no-repeat center center;
+    width: 23px;
+    height: 20px;
+}
+    
+
+
