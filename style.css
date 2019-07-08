@@ -305,6 +305,9 @@ body{
     align-items: center;
 
 }
+.mobflex-container{
+    display: flex;
+}
 .social-media-facebook-i{
     background: url('img/facebook-i.png') no-repeat center center;
     width: 13px;
