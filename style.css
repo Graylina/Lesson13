@@ -43,39 +43,46 @@ body{
 .header-menu{
     color: #898691;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12pt;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
 }
 .main-part-logo{
     color: #ffffff;
-    font-size: 68px;
+    font-size: 48pt;
     font-weight: bold;
     display: inline-block;
+}
+.search-header{
+    display: flex;
+    align-items: center;
+}
+.search-logo{
+    background: url('img/search-i.png');
+    height: 22px;
+    width: 23px;
+    margin-left: 10px;
 }
 
 .under-part-logo{
     color: #898691;
     text-align: center;
+    font-weight: 13pt;
 }
 
-.search-logo{
-    display: flex;
-    align-items: center;
-}
-.search-logo input{
+.search-link{
     color: #898691;
-    font-weight: bold;
+    font-size: 12pt;
     text-transform: uppercase;
-    background-color: #00000000;
     letter-spacing: 3px;
-    border: 0;
-    text-align: right;
-    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    background-color: #ffffff00;
+    border: none;
     padding: 0;
-    /* box-sizing: content-box; */
-    /* display: block; */
+}
+
 }
 .search-logo input::placeholder,
 .search-logo input::-ms-input-placeholder,
@@ -99,12 +106,12 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 18px;
+    font-size: 14pt;
     padding-bottom: 25px;
     padding-top: 40px;
 }
 .home-title{
-    font-size: 68pt;
+    font-size: 72pt;
     color: #ffffff;
     font-weight: bold;
     line-height: 80px;
@@ -114,10 +121,9 @@ body{
     background: url('img/home-bg.jpg') no-repeat 50% 50% /cover;
     padding: 0 40px;
     position: relative;
-    margin-bottom: 20px;
 }
 .home-container-text{
-    font-size: 47px;
+    font-size: 36pt;
     color: #ffffff;
     padding-bottom: 155px;
 }
@@ -126,7 +132,7 @@ body{
     color: #ffffff;
     border: 3px solid #ffe18f;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 10px;
     font-weight: bold;
     /* line-height: 1; */
     /* margin-bottom: 35px; */
@@ -156,14 +162,14 @@ body{
     width: 620px;
 }
 .peak-title{
-    font-size: 64px;
+    font-size: 48pt;
     color: #ffffff;
     font-weight: bold;
     padding-bottom: 25px;
 }
 
 .peak-container-text{
-    font-size: 32px;
+    font-size: 24pt;
     color: #ffffff;
     padding-bottom: 275px;
 }
@@ -176,14 +182,14 @@ body{
 }
 
 .good-things-title{
-    font-size: 64px;
+    font-size: 48pt;
     color: #ffffff;
     padding-bottom: 20px;
     padding-top: 75px;
 }
 
 .good-things-text{
-    font-size: 32px;
+    font-size: 24pt;
     color: #ffffff;
     padding-bottom: 40px;
     line-height: 30px;
@@ -236,7 +242,7 @@ body{
 }
 
 .product-title{
-    font-size: 34px;
+    font-size: 36pt;
     color: #ffffff;
     font-weight: bold;
     line-height: 40px;
@@ -264,7 +270,7 @@ body{
 }
 .title-sound{
     padding-bottom: 130px;
-    padding-top: 35px;
+    padding-top: 36pt;
 }
 
 .cameras-leica-dlux{
@@ -275,10 +281,11 @@ body{
 }
 
 .leica-dlux-text{
-    font-size: 26px;
+    font-size: 15pt;
     color: #ffffff;
     font-weight: 200;
     padding-bottom: 260px;
+    margin-top: 20px;
 }
 
 .footer-container{
