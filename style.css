@@ -82,8 +82,6 @@ body{
     border: none;
     padding: 0;
 }
-
-}
 .search-logo input::placeholder,
 .search-logo input::-ms-input-placeholder,
 .search-logo input::-webkit-input-placeholder{
@@ -155,11 +153,12 @@ body{
 }
 
 .peak-container{
-    background: url('img/peak-bg.jpg') no-repeat 0 center /cover;
+    background: url('img/headphones.png') no-repeat 0 center /cover;
     position: relative;
     padding-left: 40px;
     margin-right: 20px;
     width: 620px;
+    background-color: #76bac7;
 }
 .peak-title{
     font-size: 48pt;
@@ -239,6 +238,7 @@ body{
 .cameras-sound-flex-container{
     display: flex;
     margin-bottom: 55px;
+    align-items: center;
 }
 
 .product-title{
@@ -274,10 +274,12 @@ body{
 }
 
 .cameras-leica-dlux{
-    background: url('img/cameras-2bg.jpg') no-repeat 0 center;
+    background: url('img/photo.png') no-repeat 0 center;
     width: 460px;
     position: relative;
     padding-left: 40px;
+    background-color: #1ab467;
+    height: 420px;
 }
 
 .leica-dlux-text{
@@ -315,5 +317,85 @@ body{
     height: 20px;
 }
     
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 25px;
+    }
+    .header-flex-container {
+        padding: 25px;
+    }
+    .accessories-flex-container{
+        display: block;
+    }
+    .peak-container{
+        width: 100%;
+    }
+    .good-things-container{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cameras-sound-flex-container{
+        display: block;
+    }
+    .cameras-sound-flex-container{
+        display: block;
+    }
+    .mobflex-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sound-container{
+        margin: 0;
+    }
 
+    .cameras-leica-dlux{
+        width: 100%;
+        background: url('img/photo.png') no-repeat 100% 100%;
+        background-color: #1ab467;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 25px;
+
+    }
+    .header-flex-container {
+        padding: 25px;
+    }
+    .accessories-flex-container{
+        display: block;
+    }
+    .peak-container{
+        width: 100%;
+    }
+    .good-things-container{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cameras-sound-flex-container{
+        display: block;
+    }
+    .cameras-sound-flex-container{
+        display: block;
+    }
+    .cameras-leica-m{
+        margin: 0;
+    }
+    .mobflex-container{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .sound-container{
+        margin: 0;
+    }
+
+    .cameras-leica-dlux{
+        width: 100%;
+        background: url('img/photo.png') no-repeat 100% 100%;
+        background-color: #1ab467;
+    }
+}
