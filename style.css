@@ -43,14 +43,14 @@ body{
 .header-menu{
     color: #898691;
     text-decoration: none;
-    font-size: 12pt;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
 }
 .main-part-logo{
     color: #ffffff;
-    font-size: 48pt;
+    font-size: 48px;
     font-weight: bold;
     display: inline-block;
 }
@@ -68,12 +68,12 @@ body{
 .under-part-logo{
     color: #898691;
     text-align: center;
-    font-weight: 13pt;
+    font-size: 13px;
 }
 
 .search-link{
     color: #898691;
-    font-size: 12pt;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
@@ -99,17 +99,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 } */
 
+
 .subtitle{
     color: #ffc7b0;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 14pt;
+    font-size: 14px;
     padding-bottom: 25px;
     padding-top: 40px;
 }
 .home-title{
-    font-size: 72pt;
+    font-size: 72px;
     color: #ffffff;
     font-weight: bold;
     line-height: 80px;
@@ -121,12 +122,12 @@ body{
     position: relative;
 }
 .home-container-text{
-    font-size: 36pt;
+    font-size: 36px;
     color: #ffffff;
     padding-bottom: 155px;
 }
 .read-more-button{
-    font-size: 20pt;
+    font-size: 20px;
     color: #ffffff;
     border: 3px solid #ffe18f;
     text-decoration: none;
@@ -140,7 +141,7 @@ body{
 }
 
 .review-button{
-    font-size: 26px;
+    font-size: 20px;
     color: #3d3c4a;
     border: 3px solid #ffe18f;
     text-decoration: none;
@@ -161,16 +162,17 @@ body{
     background-color: #76bac7;
 }
 .peak-title{
-    font-size: 48pt;
+    font-size: 48px;
     color: #ffffff;
     font-weight: bold;
     padding-bottom: 25px;
 }
 
 .peak-container-text{
-    font-size: 24pt;
+    font-size: 24px;
     color: #ffffff;
     padding-bottom: 275px;
+    line-height: 30px;
 }
 
 .good-things-container{
@@ -181,14 +183,14 @@ body{
 }
 
 .good-things-title{
-    font-size: 48pt;
+    font-size: 48px;
     color: #ffffff;
     padding-bottom: 20px;
     padding-top: 75px;
 }
 
 .good-things-text{
-    font-size: 24pt;
+    font-size: 24px;
     color: #ffffff;
     padding-bottom: 40px;
     line-height: 30px;
@@ -196,7 +198,7 @@ body{
 .your-email-input{
     background-color: #00000000;
     color: #ffd9d1;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 10px 0;
@@ -217,13 +219,13 @@ body{
     text-align: center;
     color: #ffffff;
     border: 3px solid #66689c;
-    font-size: 26px;
+    font-size: 20px;
     padding: 10px 0;
     width: 75%;
     margin-bottom: 30px;
 }
 .good-things-under-button{
-    font-size: 18px;
+    font-size: 14px;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -242,16 +244,28 @@ body{
 }
 
 .product-title{
-    font-size: 36pt;
+    font-size: 36px;
     color: #ffffff;
     font-weight: bold;
     line-height: 40px;
 }
 
-.title-cameras{
-    padding-bottom: 140px;
+.subtitle-bottom-section{
     padding-top: 35px;
+    color: #ffc7b0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
+
+.first-bottom-title, .second-bottom-title{
+    padding-bottom: 120px;
+}
+.third-bottom-title{
+    padding-bottom: 20px;
+}
+
 .cameras-leica-m{
     background: url('img/cameras-bg.jpg') no-repeat 0 center;
     position: relative;
@@ -268,6 +282,7 @@ body{
     width: 260px;
     margin-right: 20px;
 }
+
 .title-sound{
     padding-bottom: 130px;
     padding-top: 36pt;
@@ -283,10 +298,10 @@ body{
 }
 
 .leica-dlux-text{
-    font-size: 15pt;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 200;
-    padding-bottom: 260px;
+    padding-bottom: 250px;
     margin-top: 20px;
 }
 
@@ -298,7 +313,7 @@ body{
 }
 .corpyright{
     color: #898691;
-    font-size: 18px;
+    font-size: 14px;
 }
 .social-media-container{
     display: flex;
@@ -393,12 +408,52 @@ body{
        align-items: center;
     }
     .sound-container{
-        margin: 0;
+        margin: 20px 20px;
     }
 
     .cameras-leica-dlux{
         width: 100%;
         background: url('img/photo.png') no-repeat 100% 100%;
         background-color: #1ab467;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .header-menu, .search-link{
+        font-size: 10px;
+    }
+    .main-part-logo{
+        font-size: 36px;
+    }
+    .under-part-logo{
+        font-size: 10px;
+    }
+    .home-container{
+        text-align: center;
+    }
+
+    .home-title{
+        font-size: 52px;
+    }
+    .home-container-text{
+        font-size: 24px;
+    }
+
+    .read-more-button{
+        margin: 0 auto;
+    }
+
+    .peak-container{
+        text-align: center;
+    }
+    .cameras-leica-dlux{
+        text-align: center;
+    }
+    .read-more-button{
+        left: 30%;
+    }
+    .review-button{
+        left: 30%;
     }
 }
